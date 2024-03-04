@@ -1,0 +1,12 @@
+version: "3.9"
+name: db
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_DB: "hibdb"
+      POSTGRES_USER: "hibte"
+      POSTGRES_PASSWORD: "hibte"
+    ports:
+      - "5432:5432"
