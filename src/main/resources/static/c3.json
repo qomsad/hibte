@@ -1,0 +1,23 @@
+[
+  {
+    "uuid": "84e3c3a6-defe-4246-a072-c366420ad6b5",
+    "index": 1,
+    "cpls": "dns",
+    "child": [
+      {
+        "uuid": "bd86e878-11b1-4541-8116-3c9ed413a93a",
+        "dict": {
+          "code": "0001",
+          "name": "nu0001"
+        }
+      },
+      {
+        "uuid": "ac4f31c9-6c14-48bb-9141-56c497c20aba",
+        "dict": {
+          "code": "0001",
+          "name": "nu0001"
+        }
+      }
+    ]
+  }
+]
