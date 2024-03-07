@@ -1,4 +1,4 @@
-package tech.hibte.c1.model.entity;
+package tech.hibte.d1.model.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,8 +10,8 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@Table(name = "c1_dict")
-public class DictC1 {
+@Table(name = "d1_dict")
+public class DictD1 {
 
     @Id
     @Column(name = "code")

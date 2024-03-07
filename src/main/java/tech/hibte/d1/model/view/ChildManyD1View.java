@@ -1,4 +1,4 @@
-package tech.hibte.c1.model.view;
+package tech.hibte.d1.model.view;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -10,11 +10,11 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChildC1View {
+public class ChildManyD1View {
 
-    @JsonProperty("uuid")
-    private String uuid;
+    @JsonProperty("path")
+    private String path;
 
     @JsonProperty("dict")
-    private DictC1View dict;
+    private DictD1View dict;
 }

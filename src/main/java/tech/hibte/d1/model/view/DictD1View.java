@@ -1,4 +1,4 @@
-package tech.hibte.c1.model.view;
+package tech.hibte.d1.model.view;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class DictC1View {
+public class DictD1View {
 
     @JsonProperty("code")
     private String code;
